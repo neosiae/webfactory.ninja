@@ -44,6 +44,7 @@
   grid-template-columns: repeat(4, minmax(25%, auto));
   width: var(--max-width);
   max-width: 100%;
+  padding-bottom: 1rem;
 }
 
 .card {
@@ -70,6 +71,26 @@
   font-size: 0.9rem;
   line-height: 1.5;
   max-width: 30ch;
+}
+
+.contact {
+  margin-bottom: 4rem;
+}
+
+.contact a {
+  display: inline;
+  padding-right: 0.3rem;
+  padding-left: 0.3rem;
+  font-weight: bold;
+}
+
+.contact h2 {
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.contact p {
+  opacity: 0.6;
 }
 
 .center {
