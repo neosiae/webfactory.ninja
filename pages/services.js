@@ -43,12 +43,7 @@ export default function Home() {
             </p>
           </a>
 
-          <a
-            href="/services"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a className={styles.card}>
             <h2 className={inter.className}>Design</h2>
             <p className={inter.className}>
               Our versatile designers can come up with the greatest ideas.
