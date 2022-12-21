@@ -49,18 +49,6 @@ export default function Home() {
               Web development for all your needs.
             </p>
           </a>
-
-          <a
-            href="https://webfactory.ninja/contact-us"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              Contact Us <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>Get in touch instantly.</p>
-          </a>
         </div>
 
         <div className={styles.grid}>
