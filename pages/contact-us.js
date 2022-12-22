@@ -34,7 +34,7 @@ export default function Home() {
             Get in touch instantly with us via
             <a href="mailto:hi@webfactory.ninja">hi@webfactory.ninja</a>
             or contact our CEO directly via
-            <a href="mailto:denis@webfactory.ninja">denis@webfactory.ninja</a>.
+            <a href="mailto:denis@webfactory.ninja">denis@webfactory.ninja</a>
           </p>
         </div>
 
