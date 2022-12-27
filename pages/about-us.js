@@ -22,8 +22,8 @@ export default function Home() {
               className={styles.logo}
               src="/logo.svg"
               alt="WebFactory Logo"
-              width={450}
-              height={450}
+              width={350}
+              height={350}
               priority
             />
           </a>
