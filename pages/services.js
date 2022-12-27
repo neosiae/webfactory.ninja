@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import Link from 'next/link';
 import { Inter } from '@next/font/google';
 import styles from '../styles/Home.module.css';
 
@@ -16,7 +17,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <div className={styles.center}>
-          <a href="/" target="_blank" rel="noopener noreferrer">
+          <Link href="/">
             <Image
               className={styles.logo}
               src="/logo.svg"
@@ -25,7 +26,7 @@ export default function Home() {
               height={450}
               priority
             />
-          </a>
+          </Link>
         </div>
 
         <div className={styles.grid}>
@@ -59,53 +60,33 @@ export default function Home() {
         </div>
 
         <div className={styles.grid}>
-          <a
-            href="/about-us"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <Link href="/about-us" className={styles.card}>
             <h2 className={inter.className}>
               About Us <span>-&gt;</span>
             </h2>
             <p className={inter.className}>Find information about us.</p>
-          </a>
+          </Link>
 
-          <a
-            href="/services"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <Link href="/services" className={styles.card}>
             <h2 className={inter.className}>
               Services <span>-&gt;</span>
             </h2>
             <p className={inter.className}>Find what we do.</p>
-          </a>
+          </Link>
 
-          <a
-            href="/"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <Link href="/" className={styles.card}>
             <h2 className={inter.className}>
               References <span>-&gt;</span>
             </h2>
             <p className={inter.className}>Discover who we are.</p>
-          </a>
+          </Link>
 
-          <a
-            href="/contact-us"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <Link href="/contact-us" className={styles.card}>
             <h2 className={inter.className}>
               Contact Us <span>-&gt;</span>
             </h2>
             <p className={inter.className}>Get in touch instantly.</p>
-          </a>
+          </Link>
         </div>
       </main>
     </>
